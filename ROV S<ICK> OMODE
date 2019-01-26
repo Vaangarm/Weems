@@ -1,0 +1,17 @@
+public class Conditionals {
+	public static void main(String[] args) {
+
+
+		if (1 < 4 && 0 > 5) {
+
+			System.out.println("Parsing Incorrect.");
+
+		} else if (21 <= 19 || 17 >= 28) {
+			
+			System.out.println("Parsing Incomplete.");
+
+		} else if ( !(true == true) ) {
+
+			System.out.println("Parsing Consistent");
+
+		} else {
